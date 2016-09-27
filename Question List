@@ -1,0 +1,14 @@
+Question
+1. <BeautifulSoup에서 soup.findAll('a') 에서 왜 a말고 href나 http를 치면 안되지?? (len(atags))하면 0으로 잡힘)
+2. http://~ 하이퍼링크만 뽑아내고 싶은데 안됨 ㅠㅠㅠㅠㅠㅠㅠㅠ
+3. for tags in atags:
+       print tag.attrs['href']
+       
+       에서 attrs에서 []에 들어갈 수 있는 것들은 무엇인가? ('"http"')했는데 안됨 ㅠㅠㅠ
+       
+4. <xpath 에서 http://~ 하이퍼링크만 뽑아내고 싶은데 안됨 ㅠㅠㅠㅠㅠㅠㅠㅠ
+
+5. xpath, css selector, BeautifulSoup, rex 모두 정제하는 명령어(함수)가 다른 것임?
+    ex) xpath: response=urllib.urlopen() 인데, cssselector에서는 r=requests.get() ....?
+    
+6. css selector 에서도 하이퍼링크만 끄내오고 싶다 ㅠㅠㅠㅠㅠ
